@@ -1,5 +1,18 @@
 # 腾讯云 EdgeOne 源站保护脚本 (edgeone_ip_protection.sh)
 
+## 脚本获取方式
+
+本脚本开源托管于 GitHub，推荐直接从官方仓库获取最新版：
+
+项目地址： [https://github.com/KongKuang-Network/edgeone_ip_protection](https://github.com/KongKuang-Network/edgeone_ip_protection)
+
+下载命令：
+```bash
+ wget https://raw.githubusercontent.com/KongKuang-Network/edgeone_ip_protection/main/edgeone_ip_protection.sh
+```
+
+---
+
 ## 功能简介
 本脚本用于自动获取腾讯云 EdgeOne 官方回源节点 IP 列表，并通过 iptables（支持 IPv4/IPv6）自动配置防火墙白名单，只允许 EdgeOne 节点访问指定端口。支持自动定时更新、日志输出、测试/调试模式、多系统兼容。
 
